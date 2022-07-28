@@ -98,3 +98,25 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .fix-margins,
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .navigation-buttons a {
+    padding: 20px 100px;
+  }
+}
